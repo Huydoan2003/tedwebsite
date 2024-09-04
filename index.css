@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+
+  outline: none;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about {
+    background-color: red;
+    color: white;
+}
+
+nav {
+    background: red;
+    position: absolute;
+}
+
+.container-fluid img {
+    width: 200px;
+    margin-left: 0;
+
+}
+
+.about-tedxrmit img {
+    width: 100%;
+}
+.about-tedxrmit {
+    background: #eb0028;
+    color: white;
+}
+
+.about-tedxrmit p {
+    padding: 20px;
+    margin-bottom: 0 ;
+    font-size: 15px;
+}
+
+nav div {
+    margin-top: 10px;
+    margin-left: 50%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+nav div a {
+    margin-left: 20px;
+}
+
+
+h1 {
+    padding: 20px;
+}
+
+
+.about p {
+    padding: 20px;
+
+}
+
+.viewmore {
+    justify-content: center;
+    display: flex;
+}
+
+
+.button {
+    color: red;
+    background: white;
+    border-radius: 8px;
+    border:0;
+    cursor:pointer;
+    margin: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+.button:hover {
+    background: whitesmoke;
+   
+}
+
+
+
+button.mbtn {
+    padding:0.6em 2em;
+    border-radius: 8px;
+    color:#fff;
+    background-color:#1976d2;
+    font-size:1.1em;
+    border:0;
+    cursor:pointer;
+    margin:1em;
+    
+  }
+
+  button.mbtn :hover {
+    background: white;
+  }
+
+  button.mbtn.red
+{
+    background-color:red;
+}
+
+.about button {
+    background-color: white;
+}
+
+/* @media only screen and (max-width: 700px){
+    .about img {
+        width: 100%;
+        height: 200px;
+    
+    
+    }
+
+
+
+    .about-tedxrmit img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .contain .btn {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    
+    
+
+    
+} */
+
+
+
+
+
+.card {
+    margin: 20px;
+    max-width: 200px;
+
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ticket .row {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.guestspeaker img {
+    height: 350px;
+}
+
+.ticket .card{
+    max-width: 350px;
+}
+
+.inside {
+    display: flex;
+    -webkit-box-align: center;
+    justify-content: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+}
+.schedule {
+    background: #eb0028;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.time p {
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inside {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.time h3 {
+    margin-right: 20px;
+    margin-left: -50%;
+}
+
+
+
+.time h3  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.time:nth-child(odd) {
+    background: #000000;
+    border-radius: 10px;
+    border-width: ;
+    padding: 0;
+    display: -webkit-flex;
+
+    transition-duration: 2s;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+footer {
+    background: black;
+}
+
+.lobox {
+    border-radius: 20px;
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+.contain {
+    position: relative;
+}
+
+.contain .btn {
+position: absolute;
+top: 80%;
+left: 75%;
+transform: translate(-70%, -70%);
+-ms-transform: translate(-50%, -50%);
+background-color: white;
+color: #eb0028;
+font-size: 20px;
+padding: 14px 28px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.offer-content:nth-child(odd) {
+    background: black;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 17%;
+}
+
+.offer-content:nth-child(even) {
+    padding: 15px;
+}
+
+.offer-content {
+    margin-left: -5%;
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+
+.reveal.active {
+    opacity: 1;
+}
+
+.active.fade-left {
+    animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }  
+
+
+
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
